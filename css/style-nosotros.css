@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+   
+   
+header{
+    background-color: rgb(43, 41, 41);
+    height: 15vh;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuEncabezado{
+    display: flex;
+    margin: 0% 8%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    margin: 3%;
+    padding-left: 3%;
+    line-height:2em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+nav a{
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+    color:white;
+    text-decoration: none;    
+}
+
+section{
+    text-align: center;
+}
+
+.MásSobreNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:3% 10%;
+   }   
+
+.MásSobreNosotros img{
+    margin:8%;
+
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+.conoce h3{
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+
+}
+.MásSobreNosotros h3{
+    margin: 2%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+      }
+
+.conoce{
+    margin-left:10%;
+    display:flex;
+    flex-direction: row;
+}      
+
+p{
+    font-size: 1em;
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+
+
+footer{
+    background-color:rgb(43, 41, 41) ;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }
+footer div{
+    margin-left: 45%;
+    margin-top: 1%;
+
+}
+
+footer p{
+    width: 100%;
+}  
+
+footer nav{
+    margin-left: 10%;
+}

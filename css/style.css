@@ -1,0 +1,541 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+   
+   
+header{
+    background-image: url("../img/header.jpg");
+    height: 100vh;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuEncabezado{
+    display: flex;
+    margin: 0% 8%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    margin: 3%;
+    padding-left: 3%;
+    line-height:2em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+nav a{
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+    color:white;
+    text-decoration: none;    
+}
+
+section{
+    text-align: center;
+}
+
+.MásSobreNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:3% 10%;
+   }   
+
+.MásSobreNosotros img{
+    margin:8%;
+
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+
+.MásSobreNosotros h3{
+    margin: 2%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+    }
+
+.CasasyDepartamentosenVenta{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0% 5%;
+    position: relative;
+}
+.CasasyDepartamentosenVenta div{
+    background-color: rgb(234, 240, 241);
+    width: 31%;
+    height: 50%;
+    text-align: justify;
+       }
+
+.CasasyDepartamentosenVenta div img{
+    width:100%;
+}
+
+.CasasyDepartamentosenVenta h3{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin: 5%;
+ 
+}
+
+.CasasyDepartamentosenVenta h4{
+    font-family: 'Lato', sans-serif;
+    color: #05ac45;
+    text-align: justify;
+    margin: 3% 5% 5%;
+ 
+}
+
+.CasasyDepartamentosenVenta p{
+    text-align: justify;
+    margin: 0% 5%;
+    padding: 0%;
+}
+
+.barracomodidades{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;
+     
+
+}
+
+.barracomodidades img{
+    width: 2%;
+    margin:0% 10%
+}
+
+button{
+    background-color: #e0bc46;
+    border: none;
+    color: white;
+    width: 80%;
+    margin:5% 10%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+p{
+    font-size: 1em;
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+
+#vertodas{
+    background-color: #38e77b;
+    width: 15%;
+    margin: 5%;
+    margin-left: 80%;
+}
+
+.Encuentralacasadetussueños{
+    background-image: url("../img/encuentra.jpg");
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    }
+
+.Encuentralacasadetussueños h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    margin-top:5%;
+    margin-left: 5%;
+}
+
+.Encuentralacasadetussueños p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin: 4% 5%;
+    padding: 0%;
+}
+.Encuentralacasadetussueños button{
+    width: auto;
+    margin-bottom:5%;
+    margin-left: 5%;
+}
+
+.blogytestimoniales{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.NuestroBlog{
+    display:flex;
+    flex-direction: row;
+    margin:5%;
+    line-height:2em;
+    
+    }
+
+.post{
+    margin-left: 15%;
+    width:40vw;
+    text-align: justify;
+}
+
+.NuestroBlog img{
+    width:20vw;
+    margin-left: 30%;
+
+}
+
+.post h3{
+    font-family: 'Lato', sans-serif;
+    font-size:130%;
+    }
+.post span{
+    color:#ce7706
+}    
+
+hr{
+    width:30%;
+    border: 2px solid green;
+    margin-top:5%;
+    }
+
+.testimoniales{
+    background-color: #68b81e;
+    width:80%;
+    margin-top: 8%;
+    border-radius: 5%;
+    line-height: 2em;
+    font-size:x-large;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }   
+
+.testimoniales img{
+    margin: 50%;
+    height: 10%;
+}
+
+.testimoniales p{
+margin:5%;
+
+}
+.firma{
+    text-align: right;
+}
+
+footer{
+    background-color:rgb(43, 41, 41) ;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }
+footer div{
+    margin-left: 45%;
+    margin-top: 1%;
+
+}
+
+footer p{
+    width: 100%;
+}  
+
+footer nav{
+    margin-left: 10%;
+}
+
+@media (min-width:768px){
+
+    *{
+    margin: 0%;
+    padding: 0%;
+}
+   
+   
+header{
+    background-image: url("../img/header.jpg");
+    height: 100vh;
+    background-size: cover;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menuEncabezado{
+    display: flex;
+    margin: 0% 8%;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    margin: 3%;
+    padding-left: 3%;
+    line-height:2em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+nav a{
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5%;
+    color:white;
+    text-decoration: none;    
+}
+
+section{
+    text-align: center;
+}
+
+.MásSobreNosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:3% 10%;
+   }   
+
+.MásSobreNosotros img{
+    margin:8%;
+
+}
+
+h2{
+    text-align: center;
+    margin: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+
+.MásSobreNosotros h3{
+    margin: 2%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    }
+
+main{
+    display: flex;
+    flex-direction: column;
+    }
+
+.CasasyDepartamentosenVenta{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0% 5%;
+    position: relative;
+}
+.CasasyDepartamentosenVenta div{
+    background-color: rgb(234, 240, 241);
+    width: 31%;
+    height: 50%;
+    text-align: justify;
+       }
+
+.CasasyDepartamentosenVenta div img{
+    width:100%;
+}
+
+.CasasyDepartamentosenVenta h3{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    margin: 5%;
+ 
+}
+
+.CasasyDepartamentosenVenta h4{
+    font-family: 'Lato', sans-serif;
+    color: #05ac45;
+    text-align: justify;
+    margin: 3% 5% 5%;
+ 
+}
+
+.CasasyDepartamentosenVenta p{
+    text-align: justify;
+    margin: 0% 5%;
+    padding: 0%;
+}
+
+.barracomodidades{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 15%;
+     
+
+}
+
+.barracomodidades img{
+    width: 2%;
+    margin:0% 10%
+}
+
+button{
+    background-color: #e0bc46;
+    border: none;
+    color: white;
+    width: 80%;
+    margin:5% 10%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+p{
+    font-size: 1em;
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+   }
+
+#vertodas{
+    background-color: #38e77b;
+    width: 15%;
+    margin: 5%;
+    margin-left: 80%;
+}
+
+.Encuentralacasadetussueños{
+    background-image: url("../img/encuentra.jpg");
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    }
+
+.Encuentralacasadetussueños h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    margin-top:5%;
+    margin-left: 5%;
+}
+
+.Encuentralacasadetussueños p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    margin: 4% 5%;
+    padding: 0%;
+}
+.Encuentralacasadetussueños button{
+    width: auto;
+    margin-bottom:5%;
+    margin-left: 5%;
+}
+
+.blogytestimoniales{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.NuestroBlog{
+    display:flex;
+    flex-direction: row;
+    margin:5%;
+    line-height:2em;
+    
+    }
+
+.post{
+    margin-left: 15%;
+    width:40vw;
+    text-align: justify;
+}
+
+.NuestroBlog img{
+    width:20vw;
+    margin-left: 30%;
+
+}
+
+.post h3{
+    font-family: 'Lato', sans-serif;
+    font-size:130%;
+    }
+.post span{
+    color:#ce7706
+}    
+
+hr{
+    width:30%;
+    border: 2px solid green;
+    margin-top:5%;
+    }
+
+.testimoniales{
+    background-color: #68b81e;
+    width:80%;
+    margin-top: 8%;
+    border-radius: 5%;
+    line-height: 2em;
+    font-size:x-large;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }   
+
+.testimoniales img{
+    margin: 50%;
+    height: 10%;
+}
+
+.testimoniales p{
+margin:5%;
+
+}
+.firma{
+    text-align: right;
+}
+
+footer{
+    background-color:rgb(43, 41, 41) ;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    }
+footer div{
+    margin-left: 45%;
+    margin-top: 1%;
+
+}
+
+footer p{
+    width: 100%;
+}  
+
+footer nav{
+    margin-left: 10%;
+}
+    
+    }
